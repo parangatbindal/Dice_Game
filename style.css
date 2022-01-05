@@ -1,0 +1,61 @@
+.container
+{
+    width: 75%;
+    height: 30%;
+    margin: auto;
+    text-align: center;
+    background-image: url("https://t3.ftcdn.net/jpg/02/76/29/70/360_F_276297089_WyP8nNMqA3ymVk5PnKPPZ3qvTsje6DPT.jpg");
+    align-items: center;
+}
+.dice{
+   text-align: center;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+    
+}
+#rolling{
+    margin-top: 5%;
+    text-align: center;
+    font-family: cursive;
+    padding-top: 30px;
+
+}
+p{
+    font-family: cursive;
+    font-weight: 2rem;
+    padding:20px 60px 20px 60px ;
+    font-size: 1.3rem;
+    color: white;
+}
+img{
+    width: 8%;
+    height: 8%;
+    margin:auto;   
+    align-items: center;
+}
+body{
+   background-color: cornsilk;
+}
+.btns{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+}
+.one{
+  background-color: white;
+  margin: 10%;
+  padding:0.8em 1.8em 0.8em 1.8em;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  background-color:transparent ;
+  border: 3px solid white;
+  color: white;
+  
+}
+h1{ 
+    font-family: cursive;
+    text-align: center;
+    color: white;
+}
