@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+   <div class="container">
+       <h1 id="rolling" >Roll the Dice</h1>
+
+      <div class="dice">
+
+        <p>selected variable <span id="variable">0</span> </p>
+        <img id="picture" src="images/dice1.png" alt="images">
+        <p> score <span id="score">0</span></p>
+
+      </div>
+
+      <div class="btns">
+          <p><button class="one" id="btn_1" value="1" onclick="myfunction(value)">1</button></p>
+          <p> <button class="one" id="btn_2" value="2" onclick="myfunction(value)">2</button></p>
+          <p> <button class="one" id="btn_3"value="3" onclick="myfunction(value)">3</button></p>
+          <p> <button class="one" id="btn_4" value="4" onclick="myfunction(value)">4</button></p>
+          <p> <button class="one" id="btn_5" value="5" onclick="myfunction(value)">5</button></p>
+          <p> <button class="one"  id="btn_6" value="6" onclick="myfunction(value)">6</button></p>     
+      </div>
+
+      <h1 id="tagg">game will start in few seconds</h1>
+      <h1 id="result"> </h1>
+
+
+
+   </div>
+</body>
+
+<script src="index.js"></script>
+</html>
